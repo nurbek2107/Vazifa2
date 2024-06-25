@@ -77,8 +77,8 @@ export default function Example() {
             >
               <h1>{index + 1}</h1>
               <h4>{todo.text}</h4>
-              <h4>{todo.phone}</h4>
               <h4>{todo.email}</h4>
+              <h4>{todo.phone}</h4>
               <div className="flex items-center gap-5">
                 <Checkbox
                   onClick={() => dispatch(changeStatusTodo(todo.id))}
